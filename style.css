@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background: linear-gradient(rgb(4, 73, 4), rgb(6, 99, 3));
+    background-repeat: no-repeat;
+}
+.tittle{
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 3%;
+}
+.carta{
+    height: 300px;
+    width: 12%;
+    background-color: rgb(238, 234, 226);
+    border: 5px solid rgb(23, 56, 4);
+}
+
+.buttons {
+    margin-top: 2%;
+    justify-self: center;
+}
+
+#end {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(218, 62, 62);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20PX;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
